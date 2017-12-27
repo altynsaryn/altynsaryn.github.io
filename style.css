@@ -72,12 +72,11 @@ p {
 @media screen and (max-width: 680px) {
 
     .sheet-left {
-        grid-column: span 12;
-        background-color: green;
+display: hide;
     }
 
     .sheet-right {
-        grid-column: span 8;
-        background-color: yellow;
+    margin-left: 0px;
+    margin-right: 0px;
     }
 }
