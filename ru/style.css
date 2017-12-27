@@ -57,6 +57,7 @@ p {
     background-color: transparent;
     color: white;
     transition: 1s linear;
+    max-width: 200px;
 }
 
 .sheet-left a:hover {
