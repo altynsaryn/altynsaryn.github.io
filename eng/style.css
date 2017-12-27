@@ -11,22 +11,21 @@ body {
 
 
 .sheet-left {
-    top: 0;
+     top: 0;
     position: fixed;
-    background: red;
     float: left;
     height: 100%;
     width: 200px;
+   background: #ff6b6b; /* Old browsers */
+background: -moz-linear-gradient(left, #ff6b6b 0%, #ad1801 2%, #ad1801 98%, #ff6b6b 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ff6b6b 0%,#ad1801 2%,#ad1801 98%,#ff6b6b 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ff6b6b 0%,#ad1801 2%,#ad1801 98%,#ff6b6b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6b6b', endColorstr='#ff6b6b',GradientType=1 ); /* IE6-9 */
 }
 
 .sheet-left li{
     list-style-type: none;
     font-size: 25px;
-}
-
-.mid {
-    position: fixed;
-    background: linear-gradient(to right, red, white);
 }
 
 .sheet-right {
@@ -72,7 +71,7 @@ p {
 @media screen and (max-width: 680px) {
 
     .sheet-left {
-display: hide;
+    display: hide;
     }
 
     .sheet-right {
