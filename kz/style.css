@@ -1,0 +1,82 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+
+
+.sheet-left {
+    top: 0;
+    position: fixed;
+    background: red;
+    float: left;
+    height: 100%;
+    width: 200px;
+}
+
+.sheet-left li{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.mid {
+    position: fixed;
+    background: linear-gradient(to right, red, white);
+}
+
+.sheet-right {
+    float: right;
+    background: white;
+    margin-left: 220px;
+    margin-right: 10px;
+}
+
+p {
+    color: red;
+    font-size: 25px;
+}
+
+#mp {
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+#gal img{
+	max-height: 200px; 
+	max-width: 200px;
+
+}
+
+.sheet-left a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s linear;
+}
+
+.sheet-left a:hover {
+    color: yellow;
+}
+
+.lang {
+
+    text-decoration: none;
+    color: yellow;
+}
+
+@media screen and (max-width: 680px) {
+
+    .sheet-left {
+display: hide;
+    }
+
+    .sheet-right {
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+}
