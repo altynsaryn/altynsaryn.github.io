@@ -64,7 +64,8 @@ p {
     text-decoration: none;
     background-color: transparent;
     color: white;
-    transition: 1s linear;
+    transition-property: color;
+    transition-duration: .2s;
 }
 
 .sheet-left a:hover {
