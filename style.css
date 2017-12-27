@@ -57,10 +57,15 @@ p {
     background-color: transparent;
     color: white;
     transition: 1s linear;
-    /* Время изменения */
 }
 
 .sheet-left a:hover {
+    color: yellow;
+}
+
+.lang {
+
+    text-decoration: none;
     color: yellow;
 }
 
