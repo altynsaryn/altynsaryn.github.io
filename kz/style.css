@@ -41,8 +41,12 @@ p {
 }
 
 #mp {
-    padding-top: 10px;
-    border-radius: 20px;
+    border:solid 3px #522121;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    border-radius: 22px;
+margin-top: 20px;
+width: 90%;
 }
 
 #gal img{
