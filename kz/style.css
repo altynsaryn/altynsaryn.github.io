@@ -16,14 +16,14 @@ body {
     float: left;
     height: 100%;
     width: 200px;
-   background: #ff6b6b; /* Old browsers */
-background: -moz-linear-gradient(left, #ff6b6b 0%, #ad1801 2%, #ad1801 98%, #ff6b6b 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #ff6b6b 0%,#ad1801 2%,#ad1801 98%,#ff6b6b 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #ff6b6b 0%,#ad1801 2%,#ad1801 98%,#ff6b6b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6b6b', endColorstr='#ff6b6b',GradientType=1 ); /* IE6-9 */
+background: #3d1919; /* Old browsers */
+background: -moz-linear-gradient(left, #3d1919 0%, #c10707 2%, #b51601 98%, #ff6b6b 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #3d1919 0%,#c10707 2%,#b51601 98%,#ff6b6b 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #3d1919 0%,#c10707 2%,#b51601 98%,#ff6b6b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d1919', endColorstr='#ff6b6b',GradientType=1 ); /* IE6-9 */
 }
 
-.sheet-left li{
+.sheet-left li {
     list-style-type: none;
     font-size: 25px;
 }
@@ -41,18 +41,17 @@ p {
 }
 
 #mp {
-    border:solid 3px #522121;
+    border: solid 3px #522121;
     -moz-border-radius: 22px;
     -webkit-border-radius: 22px;
     border-radius: 22px;
-margin-top: 20px;
-width: 90%;
+    margin-top: 15px;
+    width: 85%;
 }
 
-#gal img{
-	max-height: 200px; 
-	max-width: 200px;
-
+#gal img {
+    max-height: 200px;
+    max-width: 200px;
 }
 
 .sheet-left a {
@@ -72,14 +71,19 @@ width: 90%;
     color: yellow;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 510px) {
 
     .sheet-left {
-display: hide;
+        grid-row: 10px;
+            width: 20%;
     }
 
+.sheet-left a {
+font-size: 20px;
+}
+
     .sheet-right {
-    margin-left: 0px;
-    margin-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
