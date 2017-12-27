@@ -87,6 +87,11 @@ section {
     .sheet-left {
         display: none;
     }
+
+    .sheet-right {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
     /*
     .sheet-left {
         width: 100%;
@@ -108,12 +113,6 @@ section {
         display: inline;
         font-size: 100%;
         margin-right: 7%;
-    }
-
-    .sheet-right {
-        margin-top: 35px;
-        margin-left: 15px;
-        margin-right: 15px;
     }
 
     .lang a {
