@@ -84,21 +84,20 @@ section {
 }
 
 @media screen and (max-width: 650px) {
-
+    .sheet-left {
+        display: none;
+    }
+    /*
     .sheet-left {
         width: 100%;
         height: 45px;
         float: top;
+        position: ad
         background: #3d1919;
-        /* Old browsers */
         background: -moz-linear-gradient(top, #3d1919 8%, #c10707 12%, #b51601 88%, #ff6b6b 94%);
-        /* FF3.6-15 */
         background: -webkit-linear-gradient(top, #3d1919 8%, #c10707 12%, #b51601 88%, #ff6b6b 94%);
-        /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(to bottom, #3d1919 8%, #c10707 12%, #b51601 88%, #ff6b6b 94%);
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d1919', endColorstr='#ff6b6b', GradientType=0);
-        /* IE6-9 */
     }
 
     #mp {
@@ -112,14 +111,16 @@ section {
     }
 
     .sheet-right {
+        margin-top: 35px;
         margin-left: 15px;
         margin-right: 15px;
     }
 
     .lang a {
-float: right;
-background-color: black;
+        float: right;
+        background-color: black;
         margin: 0;
         margin-right: 5px;
     }
+    */
 }
