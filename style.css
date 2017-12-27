@@ -61,7 +61,7 @@ p {
 }
 
 .sheet-left a:hover {
-    color: black;
+    color: yellow;
 }
 
 @media screen and (max-width: 680px) {
